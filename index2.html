@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TaskList</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
 </head>
 <body>
     <nav id="navbar">
@@ -14,8 +14,8 @@
     </nav>
     <br><br>
     <div class="icon">
-        <a href="index2.html"><img src="addicon.png" alt=""></a>
-        <a href="index2.html"><p style="text-decoration:none;">Add New Task</p></a>
+        <img src="addicon.png" alt="">
+        <p>Add New Task</p>
     </div>
     <br><br>
 
@@ -75,5 +75,17 @@
     </div>
 </section>
     <br><br><br><br><br><br><br><br>
+    <div class="bg">
+        <div class="popup">
+            <div class="header">
+                <h3>Add New Task</h3>
+                <a href="index.html"><img src="Close_square_light.png" alt="" style="width: 30px;"></a>
+            </div>
+            <hr>
+            <input type="text" placeholder="&nbsp; Enter new task" id="entertask">
+            <br>
+            <button id="addbutton"><i class="fa-solid fa-plus" id="plus"></i> Add Task</button>
+        </div>
+    </div>
 </body>
 </html>
